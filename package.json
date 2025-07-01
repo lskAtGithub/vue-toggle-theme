@@ -1,5 +1,5 @@
 {
-  "name": "vue-toggle-theme",
+  "name": "toggle-theme-vue",
   "private": false,
   "version": "1.0.0",
   "type": "module",
@@ -8,8 +8,8 @@
     "dist",
     "README.md"
   ],
-  "main": "dist/vue-toggle-theme.cjs.js",
-  "module": "dist/vue-toggle-theme.es.js",
+  "main": "dist/toggle-theme-vue.cjs.js",
+  "module": "dist/toggle-theme-vue.es.js",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
