@@ -1,0 +1,28 @@
+{
+  "name": "vue-toggle-theme",
+  "private": false,
+  "version": "1.0.0",
+  "type": "module",
+  "types": "dist/types/",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "main": "dist/vue-toggle-theme.cjs.js",
+  "module": "dist/vue-toggle-theme.es.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.3",
+    "vue-tsc": "^2.1.10"
+  }
+}
